@@ -2,7 +2,7 @@
   position: relative;
   height: 100%;
 }
-
+/* Centering elements vertically: come back to this later */
 .center {
   background-color: aquamarine;
   width: 50px;
@@ -10,5 +10,7 @@
   margin: auto;
   display: flex;
   align-items: center;
+  align-self: center;
   position: relative;
+  flex-direction: column;
 }
