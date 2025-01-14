@@ -1,0 +1,70 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: bisque;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: x-large;
+}
+
+li {
+  padding: 5px;
+  border: 2px dashed gray;
+  border-radius: 20%;
+  margin: 10px;
+  list-style: none;
+}
+
+li:hover {
+  background-color: white;
+}
+
+.home {
+  background-color: yellow;
+}
+
+.about {
+  background-color: cyan;
+}
+
+.contact {
+  background-color: mediumseagreen;
+}
+
+.hero {
+  background-image: url("../img/hero.jpg");
+  height: 25vh;
+  background-size: contain;
+  background-repeat: repeat-x;
+  position: relative;
+  top: 50px;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 25vh;
+  width: 100vw;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  display: inherit;
+}
+
+.heroButton {
+  background-color: red;
+  font-weight: bolder;
+  font-size: larger;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  z-index: 2;
+}
+
+a {
+  text-decoration: none;
+}
